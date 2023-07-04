@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="input.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="">
+    <div
+      class="container mx-auto w-80 mt-20 flex-col bg-blue-950 md:w-fit md: flex md:flex-row-reverse"
+    >
+      <div class="right md:w-1/2">
+        <img
+          src="images/image-header-mobile.jpg"
+          alt=""
+          class="md:h-full md:object-cover bg-gradient-to-r from bg-blue-400 to bg-blue-950"
+        />
+      </div>
+
+      <div class="left md:w-1/2 md:p-10">
+        <h1
+          class="text-3xl font-bold max-w-sm px-8 text-center text-white mt-8 font-serif md:text-left md:max-w-md"
+        >
+          Get <span class="text-purple-800">insights</span> that help your
+          business grow.
+        </h1>
+        <p
+          class="mt-4 text-base max-w-sm text-gray-400 font-serif text-center px-8 md:text-left md:mt-8"
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div
+          class="flex flex-col space-y-5 mt-10 text-center md:flex-row md:justify-between md:items-baseline md:mt-1 md:max-w-sm md:px-8 md:text-left"
+        >
+          <div class="space-y-2 md:space-y-0">
+            <p class="text-2xl font-bold text-white">10k+</p>
+            <p class="text-gray-500 font-medium font-serif md:text-sm">
+              COMPANIES
+            </p>
+          </div>
+
+          <div class="space-y-2 md:space-y-0">
+            <p class="text-2xl font-bold text-white">314</p>
+            <p class="text-gray-500 font-medium font-serif md:text-sm">
+              TEMPLATES
+            </p>
+          </div>
+
+          <div class="space-y-2 md:space-y-0">
+            <p class="text-2xl font-bold text-white">12m+</p>
+            <p class="text-gray-500 font-medium font-serif md:text-sm">
+              QUERIES
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
